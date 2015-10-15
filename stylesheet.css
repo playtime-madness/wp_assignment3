@@ -1,0 +1,468 @@
+
+header{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height:80px;
+	left: 0px;
+	padding-top: 10px;
+
+	color: white;
+	font-family: Georgia;
+	font-size: 300%;
+	text-align: center;
+
+    background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, rgba(255,0,0,0)); /* Standard syntax (must be last) */
+
+}
+
+form  input,select,textarea{ 
+	margin: 10px;
+
+}
+
+#timer{
+
+	font-family: verdana;
+	font-size: 31px;
+	color: white;
+	
+	text-align: center;
+}
+
+#div1 div{
+
+margin: 20px;
+
+
+}
+
+video{
+
+	width: 440px;
+	height: 230px;
+	padding: 0;
+}
+
+.delete{
+
+margin-left: 10px;
+
+
+}
+
+.MS_MOVIE_PANEL{
+
+	background-color: rgba(100,100,100,0.3);
+	color: white;
+	border-radius: 30px 30px 30px 30px;
+	border: 2px solid white;
+	
+}
+
+
+#md{
+		display: visible;
+		border-radius: 30px 30px 30px 30px;
+		boarder: 4px solid white;;
+		width: 80%;
+		margin-left: 10%;
+		font-family: Georgia;
+		font-size: 100%;
+		text-align: center;
+		background-color: rgba(10,10,10,0.3);
+		color: white;
+}
+
+body {
+  background:url("blur.jpg")repeat 0 0;
+  background-attachment: fixed;
+}
+
+
+
+nav{
+	font-family: verdana;
+	font-size: 16px;
+	margin-top: 90px;	
+}
+
+
+img{
+	padding: 5px;
+}
+
+
+
+div.cardtext p {
+	text-shadow: 2px 4px 8px black;
+	padding:10px;
+
+	overflow: hidden;
+}
+
+div.Basic_card p {
+	text-shadow: 2px 4px 8px black;
+	margin-left: 20px;
+}
+
+div.details {
+
+display:none;
+
+}
+
+div.img{
+padding: 5px;
+}
+
+
+
+#slider {
+	width: 520px;
+	height:350px;
+	margin: 0;
+	padding: 10px;
+	overflow: hidden;
+	background-color: rgba(10,10,10,0.5);
+	color: white;
+	border-radius: 30px 30px 30px 30px;
+	border: 2px solid white;
+}
+
+#slider .slides{
+	display: inline-block;
+	width: 6000px;
+	height: 400px;
+	margin: 0;
+	padding: 0;
+}
+
+#slider .slide{
+	float: left;
+	list-style-type: none;
+	width: 600px;
+	height: 400px;
+	margin: 0;
+	padding: 0;
+}
+
+
+.slide img {
+
+	width: 200px;
+	margin: 0px 160px 0px 160px;
+	padding: 0;
+}
+
+div.card {
+	border: 0px solid transparent;
+	color:grey;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	padding: 20px;
+}
+
+
+ th, td {
+   border: 0px 0px 0px1px solid white;
+   	 margin: 10px;
+   	 padding: 5px;
+   	 text-align: center;
+   	 color: white;
+}
+
+  tr.stripe:nth-child(odd) {
+  background-color: rgba(10,10,10,0.1);;
+}
+
+th.stripe{
+	background-color: rgba(10,10,10,0.3);;
+
+}
+
+table {
+
+	 border-collapse: collapse;
+	 margin: 10px;
+}
+div.cardtext {
+		
+	background-color: rgba(100,100,100,0.3);
+	color: white;
+	border-radius: 0px 0px 30px 30px;
+	border: 2px solid white;
+	border-top-width: 1px;
+		
+}
+
+
+
+
+
+div.cardtext:nth-child(odd) {
+	
+	background-color: rgba(7,7,7,0.5);
+	color: white;
+	border-radius: 0px 0px 10px 10px;
+	border-top-width: 1px;	
+
+}
+
+.double{
+	-moz-column-count: 2;
+	-moz-column-gap: 0em;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 0em;
+	column-count: 2;
+	column-gap: 0em;
+
+	margin: 0px;
+	padding: 10px 15px 10px 5px;
+
+}
+
+li{
+
+		list-style-type: none;
+		padding: 5px 20px 5px 20px;
+
+}
+
+li p {
+	
+	margin-left: 100px;
+}
+
+div.cardsessions {
+	
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	 
+	background-color: rgba(10,10,10,0.3);
+	color: white;
+	padding-top: 20px;
+	border-radius: 0px 0px 30px 30px;
+	border: 2px solid white;
+	border-top-width: 1px;
+	width: 500px;
+		
+}
+
+div.shadowwrapper {
+	display: flex;
+	flex-wrap: wrap;
+
+		align-items: center;
+		justify-content: center;
+	border-radius: 30px 30px 30px 30px;
+	background-color: rgba(10,10,10,0.3);
+	margin: 0px 30px 10px 30px;
+
+}
+
+div  > h2{
+	
+	border-bottom-width: 1px;
+	border-radius: 0px 30px 0px 0px;
+	color: rgba(80,80,80,1);
+	margin: 0px;
+ 	background-color: white;
+	text-align: center;
+}
+
+
+h2.odd{
+	border-radius: 30px 0px 0px 0px;
+}
+
+
+
+h3{
+	color: white;
+	padding: 0px 10px 0px 10px;
+	margin: 5px;
+}
+
+
+a:link{
+	float: left;	
+	border: 1px solid transparent;
+	color: white;
+}
+
+
+
+a:hover{
+ 	border: 1px solid goldenrod;
+	color: goldenrod;
+	text-shadow: 2px 2px 2px black;
+}
+
+a:visited{
+	color: white;
+}
+
+a:active{
+	color: white;
+}
+
+p, td, th{
+	padding: 0px 10px 10px 10px;
+	text-shadow: 2px 2px 2px black;
+}
+
+
+
+
+
+#footer {
+	background-color: rgba(10,10,10,0.8);
+	color: grey;
+	clear:both;
+	
+	padding: 5px;
+	margin-top: 10%
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+/* Mobile layout */
+@media only screen and (max-width: 500px) {
+
+	 button {
+
+	 	display: visible;
+		border-radius: 30px 30px 30px 30px;
+		boarder: 4px solid white;;
+		width: 80%;
+		margin-left: 10%;
+		font-family: Georgia;
+		font-size: 100%;
+		text-align: center;
+		background-color: rgba(10,10,10,0.3);
+		color: white;
+	}
+
+
+	.navbar {
+		display:none;
+		overflow:hidden;
+	}
+
+
+	.qckpur {
+		display:none;
+		overflow:hidden;	
+		
+	}
+
+
+	a{	
+		display: block;
+		text-shadow: 2px 4px 8px black;
+		padding: 5px;
+		margin: 5px;
+	 	width: 100%;
+	}
+
+	a:nth-child(odd){text-shadow: 2px 4px 8px black;
+		background-color: rgba(10,10,10,0.1);
+	}
+
+	div.cardholder {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+
+	}
+
+	div.cardsessions{
+		width: 250px;
+	}
+
+	div.basic_card {
+		background-color: rgba(100,100,100,0.3);
+		color: white;
+		border-radius: 30px 30px 30px 30px;
+		border: 2px solid white;
+		padding: 5px 5px 10px 5px;	
+		width: 80%
+	}
+
+}
+
+
+/* Desktop layout */
+@media only screen and (min-width: 500px) {
+
+	.menu{
+		display: none;
+	}
+
+
+	a{	
+
+		text-shadow: 2px 4px 8px black;
+		padding: 10px 20px 10px 20px; 
+		margin: 5px;
+	 	
+	}
+
+	li > a {
+
+		padding: 0;
+		margin: 0;
+		color: grey;
+	}
+
+	.navbar {
+		display: flex !important;
+		align-items: center;
+		justify-content: center;
+		background-color: rgba(10,10,10,0.3);
+	}
+
+	.qckpur {
+		display:none;
+		overflow:hidden;	
+	}
+
+	div.cardholder {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		flex-direction: column wrap;
+		width: 600px;
+			
+
+	}
+
+	div.cardwrapper{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+	}
+
+
+	div.basic_card {
+	
+		background-color: rgba(100,100,100,0.3);
+		color: white;
+		border-radius: 30px 30px 30px 30px;
+		border: 2px solid white;
+		width: 80%;
+		padding: 5px;	
+	}
+
+}
